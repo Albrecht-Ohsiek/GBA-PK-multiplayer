@@ -1,6 +1,4 @@
-local ____lualib = require("lualib_bundle")
-local __TS__SourceMapTraceBack = ____lualib.__TS__SourceMapTraceBack
-__TS__SourceMapTraceBack(debug.getinfo(1).short_src, {["4"] = 1,["5"] = 2,["6"] = 1,["7"] = 5});
+--[[ Generated with https://github.com/TypeScriptToLua/TypeScriptToLua ]]
 function greet(self, name)
     return ("Hello, " .. name) .. "!"
 end

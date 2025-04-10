@@ -10,7 +10,7 @@
   },
   "tstl": {
     "luaTarget": "5.3",
-    "sourceMapTraceback": true,
+    "sourceMapTraceback": false, // Turn to true to make it easier to traceback error
     "noHeader": false
   },
   "include": ["src"]
