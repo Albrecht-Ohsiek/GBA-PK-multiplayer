@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
@@ -6,12 +7,15 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "outDir": "./dist"
   },
   "tstl": {
     "luaTarget": "5.3",
+    "luaBundle": "./dist/artifacts/bundle.lua",
+    "luaBundleEntry": "src/main.ts",
     "sourceMapTraceback": false, // Turn to true to make it easier to traceback error
     "noHeader": false
   },
-  "include": ["src"]
+  "files": [
+    "src/main.ts"
+  ]
 }

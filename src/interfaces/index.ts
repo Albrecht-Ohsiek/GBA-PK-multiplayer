@@ -1,0 +1,1 @@
+export { IGameTemplate } from './game.interface'
