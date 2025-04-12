@@ -4,7 +4,8 @@
   "description": "Generation 3 Multiplayer Mod",
   "main": "index.js",
   "scripts": {
-    "build": "npx tstl",
+    "build": "tstl",
+    "dev": "tstl --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
