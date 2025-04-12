@@ -1,0 +1,1 @@
+export { FRLGTemplate, RSETemplate, EmeraldTemplate } from './game';
